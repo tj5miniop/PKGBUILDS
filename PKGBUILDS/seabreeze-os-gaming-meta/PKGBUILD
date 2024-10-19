@@ -1,4 +1,4 @@
-Maintainer: tj5miniop <tj5miniop@gmail.com>
+Maintainer= tj5miniop <tj5miniop@gmail.com>
 pkgname=seabreeze-os-gaming-meta
 pkgver=0.2
 pkgrel=1
@@ -8,5 +8,5 @@ arch=('X86_64')
 url="https://github.com/tj5miniop/PKGBUILDS"
 license=('GPL')
 groups=()
-depends=('git' 'steam' 'gamescope-seabreeze-os' 'protonup-qt' 'bottles-seabreezeos' 'heroic-games-launcher-bin' 'alsa-plugins' 'giflib' 'glfw' 'lib32-alsa-plugins' 'lib32-gtk3' 'proton-ge-seabreeze' 'vulkan-tools' 'gamemode' 'lib32-gamemode' 'mangohud' )
+depends=('git' 'steam' 'gamescope-git' 'protonup-qt' 'bottles' 'heroic-games-launcher-bin' 'alsa-plugins' 'giflib' 'glfw' 'lib32-alsa-plugins' 'lib32-gtk3' 'proton-ge-seabreeze' 'vulkan-tools' 'gamemode' 'lib32-gamemode' 'mangohud' )
 provides=(seabreeze-os-gaming-meta)

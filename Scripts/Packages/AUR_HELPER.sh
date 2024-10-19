@@ -12,7 +12,6 @@ git clone https://aur.archlinux.org/paru && sleep 3
 
 cd paru 
 
-paru -Bi .
-echo "building $($PKGNAME)...."
+paru -B
 sleep 4 
 echo 'Done, just copy the pkg file into the repo when ready!'
