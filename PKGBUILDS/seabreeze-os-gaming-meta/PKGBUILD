@@ -7,5 +7,5 @@ arch=('X86_64')
 url="https://github.com/tj5miniop/PKGBUILDS"
 license=('GPL')
 groups=()
-depends=('steam' 'gamescope-git' 'protonup-qt' 'bottles' 'heroic-games-launcher-bin' 'alsa-plugins' 'giflib' 'glfw' 'lib32-alsa-plugins' 'lib32-gtk3' 'vulkan-tools' 'gamemode' 'lib32-gamemode' 'mangohud' )
+depends=('steam' 'gamescope' 'protonup-qt' 'bottles' 'heroic-games-launcher-bin' 'alsa-plugins' 'giflib' 'glfw' 'lib32-alsa-plugins' 'lib32-gtk3' 'vulkan-tools' 'gamemode' 'lib32-gamemode' 'mangohud' )
 provides=(seabreeze-os-gaming-meta)

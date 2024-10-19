@@ -1,0 +1,24 @@
+pkgbase = seabreeze-os-gaming-meta
+	pkgdesc = A meta-package for all your gaming needs - includes steam, gamescope. bottles and Feral Gamemode to easily help you get gaming on your linux device
+	pkgver = 0.2
+	pkgrel = 1
+	url = https://github.com/tj5miniop/PKGBUILDS
+	arch = X86_64
+	license = GPL
+	depends = steam
+	depends = gamescope-git
+	depends = protonup-qt
+	depends = bottles
+	depends = heroic-games-launcher-bin
+	depends = alsa-plugins
+	depends = giflib
+	depends = glfw
+	depends = lib32-alsa-plugins
+	depends = lib32-gtk3
+	depends = vulkan-tools
+	depends = gamemode
+	depends = lib32-gamemode
+	depends = mangohud
+	provides = seabreeze-os-gaming-meta
+
+pkgname = seabreeze-os-gaming-meta
